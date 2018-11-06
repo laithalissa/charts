@@ -234,6 +234,7 @@ helm install --name <RELEASE_NAME> \
 | `datadog.logsConfigContainerCollectAll`  | Collect logs from all containers                                                          | `nil`                                       |
 | `datadog.logsPointerHostPath`            | Host path to store the log tailing state in                                               | `/var/lib/datadog-agent/logs`               |
 | `datadog.apmEnabled`                     | Enable tracing from the host                                                              | `nil`                                       |
+| `datadog.apmAnalyzedSpans`               | Select which spans to analyze                                                             | `nil`                                       |
 | `datadog.processAgentEnabled`            | Enable live process monitoring                                                            | `nil`                                       |
 | `datadog.checksd`                        | Additional custom checks as python code                                                   | `nil`                                       |
 | `datadog.confd`                          | Additional check configurations (static and Autodiscovery)                                | `nil`                                       |
